@@ -2369,6 +2369,12 @@
             </data>
         </settings>
     </configuration>
+    <group>
+        <name>CMSIS-Pack</name>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
+    </group>
     <file>
         <name>$PROJ_DIR$\HelloWorld.cpp</name>
     </file>

@@ -219,7 +219,8 @@
                 </option>
                 <option>
                     <name>CCDefines</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_DEFINES$</state>
+                    <state>_RTE_</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -344,7 +345,8 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_INCLUDES$</state>
+                    <state>$CMSIS_PACK_INCLUDES$</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -514,7 +516,8 @@
                 </option>
                 <option>
                     <name>ADefines</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_DEFINES$</state>
+                    <state>_RTE_</state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -606,7 +609,8 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_INCLUDES$</state>
+                    <state>$CMSIS_PACK_INCLUDES$</state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -1238,6 +1242,8 @@
                 <option>
                     <name>CCDefines</name>
                     <state>NDEBUG</state>
+                    <state>$CMSIS_PACK_DEVICE_DEFINES$</state>
+                    <state>_RTE_</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -1362,7 +1368,8 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_INCLUDES$</state>
+                    <state>$CMSIS_PACK_INCLUDES$</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1532,7 +1539,8 @@
                 </option>
                 <option>
                     <name>ADefines</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_DEFINES$</state>
+                    <state>_RTE_</state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -1624,7 +1632,8 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    <state></state>
+                    <state>$CMSIS_PACK_DEVICE_INCLUDES$</state>
+                    <state>$CMSIS_PACK_INCLUDES$</state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -2037,6 +2046,13 @@
             <data />
         </settings>
     </configuration>
+    <group>
+        <name>CMSIS-Pack</name>
+        <tag>CMSISPack.ComponentGroup</tag>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
+    </group>
     <file>
         <name>$PROJ_DIR$\HelloWorld.cpp</name>
     </file>
